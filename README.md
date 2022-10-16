@@ -1,3 +1,5 @@
+WIP
+
 # Open Graph Generator
 
 🍇 Open Graph Generator made using [next-api-og-image](https://github.com/neg4n/next-api-og-image) for personal use.
