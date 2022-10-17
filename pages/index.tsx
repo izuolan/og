@@ -3,6 +3,8 @@ import queryString from 'query-string';
 import * as React from 'react';
 import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
 
+import { deploymentURL } from '@/libs/env';
+
 import Button from '@/components/buttons/Button';
 import Input from '@/components/forms/Input';
 import SelectInput from '@/components/forms/SelectInput';
@@ -10,7 +12,6 @@ import ButtonLink from '@/components/links/ButtonLink';
 import CustomLink from '@/components/links/CustomLink';
 import Seo from '@/components/Seo';
 
-import { deploymentURL } from '@/constant/env';
 import { GeneralQueryEnum } from '@/pages/api/default';
 
 type Query = Record<keyof typeof GeneralQueryEnum | 'ogType', string>;

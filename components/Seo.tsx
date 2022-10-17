@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import { deploymentURL } from '@/constant/env';
+import { deploymentURL } from '@/libs/env';
 
 const defaultMeta = {
   title: 'Open Graph Generator',

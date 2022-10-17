@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   eslint: {
-    dirs: ['src'],
+    dirs: ['components', 'pages', 'libs'],
   },
 };

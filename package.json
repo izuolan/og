@@ -8,8 +8,6 @@
     "start": "next start",
     "prepare": "husky install",
     "lint": "next lint",
-    "lint:fix": "eslint src --fix && yarn format",
-    "format": "prettier --write src",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main"
   },
